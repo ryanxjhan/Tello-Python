@@ -19,7 +19,7 @@ class Tello_Pose:
     def __init__(self):
 
         # read the path of the trained model of the neural network for pose recognition
-        self.protoFile = "model/pose/mpi/pose_deploy_linevec_faster_4_stages.prototxt"
+        self.protoFile = "/Users/ryan/Documents/GitHub/Tello-Python/Tello_Video_With_Pose_Recognition/model/pose/mpi/pose_deploy_linevec_faster_4_stages.prototxt"
         self.weightsFile = "model/pose/mpi/pose_iter_160000.caffemodel"
         
         # total number of the skeleton nodes

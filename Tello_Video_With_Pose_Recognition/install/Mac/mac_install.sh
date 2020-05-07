@@ -61,7 +61,7 @@ mkdir build
 
 cd build
 
-cmake ..
+cmake -D Boost_NO_BOOST_CMAKE:BOOL=ON ..
 
 make
 
